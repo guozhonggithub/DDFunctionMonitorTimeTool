@@ -14,6 +14,10 @@
 		1806CECC243C5EE5007C75A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1806CECB243C5EE5007C75A5 /* Assets.xcassets */; };
 		1806CECF243C5EE5007C75A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806CECD243C5EE5007C75A5 /* LaunchScreen.storyboard */; };
 		1806CED2243C5EE5007C75A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806CED1243C5EE5007C75A5 /* main.m */; };
+		1806CEDA243C6057007C75A5 /* DDFunctionMonitorTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806CED9243C6057007C75A5 /* DDFunctionMonitorTimeTool.m */; };
+		1806CEE0243C7145007C75A5 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806CEDE243C7145007C75A5 /* BSBacktraceLogger.m */; };
+		1806CEE3243C74AE007C75A5 /* DDTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806CEE2243C74AE007C75A5 /* DDTimeModel.m */; };
+		584989504F911EF8B92DD0C4 /* libPods-DDFuctionMonitorTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDDC7B2BB7822828AC1738 /* libPods-DDFuctionMonitorTime.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,15 @@
 		1806CECE243C5EE5007C75A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1806CED0243C5EE5007C75A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1806CED1243C5EE5007C75A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1806CED8243C6057007C75A5 /* DDFunctionMonitorTimeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFunctionMonitorTimeTool.h; sourceTree = "<group>"; };
+		1806CED9243C6057007C75A5 /* DDFunctionMonitorTimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFunctionMonitorTimeTool.m; sourceTree = "<group>"; };
+		1806CEDE243C7145007C75A5 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		1806CEDF243C7145007C75A5 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		1806CEE1243C74AE007C75A5 /* DDTimeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTimeModel.h; sourceTree = "<group>"; };
+		1806CEE2243C74AE007C75A5 /* DDTimeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTimeModel.m; sourceTree = "<group>"; };
+		467528FB5F89CC02260E090D /* Pods-DDFuctionMonitorTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDFuctionMonitorTime.debug.xcconfig"; path = "Target Support Files/Pods-DDFuctionMonitorTime/Pods-DDFuctionMonitorTime.debug.xcconfig"; sourceTree = "<group>"; };
+		B05451AFC432D3D8609D1B39 /* Pods-DDFuctionMonitorTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDFuctionMonitorTime.release.xcconfig"; path = "Target Support Files/Pods-DDFuctionMonitorTime/Pods-DDFuctionMonitorTime.release.xcconfig"; sourceTree = "<group>"; };
+		D8EDDC7B2BB7822828AC1738 /* libPods-DDFuctionMonitorTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDFuctionMonitorTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				584989504F911EF8B92DD0C4 /* libPods-DDFuctionMonitorTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +61,8 @@
 			children = (
 				1806CEBE243C5EE3007C75A5 /* DDFuctionMonitorTime */,
 				1806CEBD243C5EE3007C75A5 /* Products */,
+				8EF3B7C3D584CD447DB4532C /* Pods */,
+				B32752556389B903F3B052B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +77,12 @@
 		1806CEBE243C5EE3007C75A5 /* DDFuctionMonitorTime */ = {
 			isa = PBXGroup;
 			children = (
+				1806CEDF243C7145007C75A5 /* BSBacktraceLogger.h */,
+				1806CEDE243C7145007C75A5 /* BSBacktraceLogger.m */,
+				1806CED8243C6057007C75A5 /* DDFunctionMonitorTimeTool.h */,
+				1806CED9243C6057007C75A5 /* DDFunctionMonitorTimeTool.m */,
+				1806CEE1243C74AE007C75A5 /* DDTimeModel.h */,
+				1806CEE2243C74AE007C75A5 /* DDTimeModel.m */,
 				1806CEBF243C5EE3007C75A5 /* AppDelegate.h */,
 				1806CEC0243C5EE3007C75A5 /* AppDelegate.m */,
 				1806CEC2243C5EE3007C75A5 /* SceneDelegate.h */,
@@ -76,6 +98,23 @@
 			path = DDFuctionMonitorTime;
 			sourceTree = "<group>";
 		};
+		8EF3B7C3D584CD447DB4532C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				467528FB5F89CC02260E090D /* Pods-DDFuctionMonitorTime.debug.xcconfig */,
+				B05451AFC432D3D8609D1B39 /* Pods-DDFuctionMonitorTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B32752556389B903F3B052B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8EDDC7B2BB7822828AC1738 /* libPods-DDFuctionMonitorTime.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +122,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1806CED5243C5EE5007C75A5 /* Build configuration list for PBXNativeTarget "DDFuctionMonitorTime" */;
 			buildPhases = (
+				5D4BB581F190632A2F85EC9F /* [CP] Check Pods Manifest.lock */,
 				1806CEB8243C5EE3007C75A5 /* Sources */,
 				1806CEB9243C5EE3007C75A5 /* Frameworks */,
 				1806CEBA243C5EE3007C75A5 /* Resources */,
@@ -141,14 +181,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D4BB581F190632A2F85EC9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDFuctionMonitorTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1806CEB8243C5EE3007C75A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1806CEC7243C5EE3007C75A5 /* ViewController.m in Sources */,
+				1806CEE0243C7145007C75A5 /* BSBacktraceLogger.m in Sources */,
 				1806CEC1243C5EE3007C75A5 /* AppDelegate.m in Sources */,
 				1806CED2243C5EE5007C75A5 /* main.m in Sources */,
+				1806CEE3243C74AE007C75A5 /* DDTimeModel.m in Sources */,
+				1806CEDA243C6057007C75A5 /* DDFunctionMonitorTimeTool.m in Sources */,
 				1806CEC4243C5EE3007C75A5 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +355,7 @@
 		};
 		1806CED6243C5EE5007C75A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467528FB5F89CC02260E090D /* Pods-DDFuctionMonitorTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +372,7 @@
 		};
 		1806CED7243C5EE5007C75A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05451AFC432D3D8609D1B39 /* Pods-DDFuctionMonitorTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

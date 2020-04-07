@@ -8,9 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+#define DD_TIME_INTERVAL   0.01
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DDFunctionMonitorTimeTool : NSObject
+
++ (void)startMonitor;
++ (void)stopMonitor;
+
++ (NSDictionary *)backtraceMapOfMainThread;
 
 @end
 

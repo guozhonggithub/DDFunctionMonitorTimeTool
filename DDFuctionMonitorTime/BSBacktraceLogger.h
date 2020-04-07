@@ -14,6 +14,8 @@
 + (NSString *)bs_backtraceOfCurrentThread;
 + (NSString *)bs_backtraceOfMainThread;
 + (NSString *)bs_backtraceOfNSThread:(NSThread *)thread;
+
+// add 
 + (NSDictionary *)bs_backtraceMapOfMainThread;
 
 @end
